@@ -24,16 +24,18 @@ Check AWS CLI setup:
 ```bash
 aws sts get-caller-identity
 
+```
 
-### STEPS:
+## ⚙️ STEPS
 
-Crete main.tf
+Create `main.tf` file and add your Terraform configuration.
+
+```bash
 terraform init
 terraform validate
 terraform plan
 terraform apply
 
-#### once created and want to delete
-
-terraform destroy
+### When you want to delete this
+terraform destroy 
 
